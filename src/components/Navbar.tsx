@@ -30,7 +30,7 @@ const Navbar = () => {
     <>
     
     { isHome ? (
-    <div className="bg-[url('https://cdn.pixabay.com/photo/2021/11/21/21/14/mountain-6815304_1280.jpg')]
+    <div className="bg-[black]
         h-auto">
         <div className='flex place-content-center place-items-center text-slate-100 text-xl h-[94vh] sm:h-[91vh] '>
             <h1 className='font-link text-6xl sm:text-8xl'>PictoShaman</h1>
