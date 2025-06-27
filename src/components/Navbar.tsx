@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
     
     { isHome ? (
-    <div className="bg-[url('https://scontent-ord5-2.xx.fbcdn.net/v/t1.15752-9/336207821_1322088945316294_6265849050340441417_n.png?stp=dst-png_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=H7ovYRVuNaUAX-pUpeY&_nc_ht=scontent-ord5-2.xx&oh=03_AdSCSnlwNUQb8Loi0-pCkl8KdLmMq5x2W7sBa93L9yNVKw&oe=64416B8D')]
+    <div className="bg-[url('https://cdn.pixabay.com/photo/2021/11/21/21/14/mountain-6815304_1280.jpg')]
         h-auto">
         <div className='flex place-content-center place-items-center text-slate-100 text-xl h-[94vh] sm:h-[91vh] '>
             <h1 className='font-link text-6xl sm:text-8xl'>PictoShaman</h1>
