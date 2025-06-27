@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import anime from 'animejs/lib/anime.es.js';
-import myImage from './assets/mountain-6815304_1280.jpg';
 import { FaBars } from 'react-icons/fa'
 import { Transition } from '@headlessui/react'
 
