@@ -30,7 +30,7 @@ const Navbar = () => {
     <>
     
     { isHome ? (
-    <div className="bg-[url('./assets/images/mountain-6915304_1280.jpg')]">
+    <div className="bg-green-100">
         <div className='flex place-content-center place-items-center text-slate-100 text-xl h-[94vh] sm:h-[91vh] '>
             <h1 className='font-link text-6xl sm:text-8xl'>PictoShaman</h1>
         </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
     </div>
     ) : (
-    <div className="bg-[url('./assets/images/mountain-6915304_1280.jpg')] bg-cover">
+    <div className="bg-green-100">
     <div className='flex place-content-center place-items-center text-white sm:text-slate-500 text-xl h-40 justify-between'>
     <h1 className='font-link text-4xl p-5 sm:text-8xl'>PictoShaman</h1>
     <button onClick={() => setIsopen((isOpen) => !isOpen)} className='flex justify-end justify-items-end p-5 text-3xl hover:text-green-500'><FaBars></FaBars></button>
