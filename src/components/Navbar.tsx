@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import anime from 'animejs/lib/anime.es.js';
+import myImage from './assets/mountain-6815304_1280.jpg';
 import { FaBars } from 'react-icons/fa'
 import { Transition } from '@headlessui/react'
 
@@ -42,7 +43,7 @@ const Navbar = () => {
         </div>
     </div>
     ) : (
-    <div className="bg-[url('https://cdn.pixabay.com/photo/2021/11/21/21/14/mountain-6815304_1280.jpg')] bg-cover">
+    <div className="bg-[url('./assets/mountain-6815304_1280.jpg')] bg-cover">
     <div className='flex place-content-center place-items-center text-white sm:text-slate-500 text-xl h-40 justify-between'>
     <h1 className='font-link text-4xl p-5 sm:text-8xl'>PictoShaman</h1>
     <button onClick={() => setIsopen((isOpen) => !isOpen)} className='flex justify-end justify-items-end p-5 text-3xl hover:text-green-500'><FaBars></FaBars></button>
