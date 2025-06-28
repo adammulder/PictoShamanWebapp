@@ -43,7 +43,7 @@ const Navbar = () => {
     </div>
     ) : (
     <div className="bg-[url('https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover">
-    <div className='flex place-content-center place-items-center text-white sm:text-slate-500 text-xl h-40 justify-between'>
+    <div className='flex place-content-center place-items-center text-white sm:text-white text-xl h-40 justify-between'>
     <h1 className='font-link text-4xl p-5 sm:text-8xl'>PictoShaman</h1>
     <button onClick={() => setIsopen((isOpen) => !isOpen)} className='flex justify-end justify-items-end p-5 text-3xl hover:text-green-500'><FaBars></FaBars></button>
     <Transition
@@ -55,7 +55,7 @@ const Navbar = () => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <div onClick={() => setIsopen(!isOpen)} className='font-link text-3xl block text-white sm:flex  sm:text-slate-500 text-center sm:space-x-8 sm:p-5 ' >
+        <div onClick={() => setIsopen(!isOpen)} className='font-link text-3xl block text-white sm:flex  sm:text-white text-center sm:space-x-8 sm:p-5 ' >
                 <button><Link className='hover:text-green-500' to='/'>Home</Link></button>
                 <button><Link className='hover:text-green-500' to='/gallery'>Gallery</Link></button>
                 <button><Link className='hover:text-green-500' to='/about'>About</Link></button>
