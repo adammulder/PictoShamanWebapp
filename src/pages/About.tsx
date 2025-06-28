@@ -10,7 +10,9 @@ const About = () => {
     <div className='bg-slate-500 text-white text-center justify-center flex p-5'>
       <p className='font-thin text-lg sm:text-3xl sm:w-[50vw]' >
          Hello and Welcome, thank you for visiting my page! I am a professional illustrator/comic artist who sometimes does
-         commission work. I reside in beautiful west Michigan with my family, cat, and chickens.   
+         commission work. I reside in beautiful west Michigan with my family, cat, and chickens.  
+         For Pictoshaman merch please visit:
+         <a className='hover:text-green-500' href="https://pictoshaman-shop.fourthwall.com/"> Merch Here!</a> 
       </p>
     </div>
     <div className='justify-center flex bg-slate-500'>
