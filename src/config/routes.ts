@@ -6,7 +6,7 @@ import Gallery from "../pages/Gallery"
 
 interface RouteType {
     path: string,
-    component: () => JSX.Element,
+    component: React.ComponentType,
     name: string,
     protected: boolean
 }
