@@ -26,7 +26,7 @@ const MyModal: React.FC<MyModalProps> = ({ isOpen, setIsOpen }) => {
                 Important Message
               </DialogTitle>
               <p className="mt-2 text-sm text-white">
-                Please note some art may not be suitable to view in the workplace. Please process at your own discretion.
+                Please note: some art may not be suitable to view in the workplace. Please proceed at your own discretion.
               </p>
               <div className="mt-4">
                 <Button
